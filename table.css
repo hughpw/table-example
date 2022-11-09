@@ -1,0 +1,45 @@
+
+body {
+  color: rgb(37, 37, 37);
+  background-image: linear-gradient(white, white, rgb(252, 216, 229), rgb(253, 137, 178));
+  background-attachment: fixed;
+}
+
+table {
+  margin-top: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30vh;
+  text-shadow: rgba(0, 0, 0, 0.582) 1px 5px 15px;
+}
+
+th, td {
+  font-family: 'kanit', sans-serif;
+  border: 3px solid black;
+  border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+td{
+  text-align: center;
+}
+
+/* While styling my table, I found it difficult to use 
+flexbox and was unable to use justify-content to center
+my on-screen elements. It wa also a challenge making the
+background gradient fill the entire length of the screen.
+I learnt that margin-left/right and text-align can achieve
+the same effect as justify-content: center. To fill the 
+gradient I needed to add background-attachment: fixed, which
+determines whether the background-image is fixed within the
+viewport. I also learnt that text-shadow has the same 
+parameters as a box-shadow and drop-shadow. */
+
